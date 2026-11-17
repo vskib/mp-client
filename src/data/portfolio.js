@@ -13,8 +13,8 @@ export const profile = {
 
 export const socials = [
   { label: "GitHub", href: "https://github.com/vskib", icon: "github" },
-  { label: "LinkedIn", href: "https://linkedin.com/in/jameskivenburce", icon: "linkedin" },
-  { label: "Facebook", href: "https://facebook.com/jameskivenburce", icon: "facebook" },
+  { label: "LinkedIn", href: "https://linkedin.com/in/kib05", icon: "linkedin" },
+  { label: "Facebook", href: "https://facebook.com/bikswonkenoon", icon: "facebook" },
 ];
 
 export const about = {
@@ -48,13 +48,9 @@ export const projects = [
     details: "Designed to help a small retail store record sales and keep track of stock in one place. Replace this text with your own description of the problem, your role, and what you learned.",
     stack: ["React", "Node.js", "Express", "PostgreSQL"], // update to the stack you actually used
     features: ["Point-of-sale checkout", "Inventory tracking", "Product management"],
-    image: "", github: "", demo: "" },
-  { id: "volleysim", name: "VolleySim",
-    summary: "A volleyball rotation and gameplay simulation mobile application.",
-    details: "A mobile app for visualising volleyball rotations and simulating gameplay. Replace this text with your own description, tools used, and what you learned.",
-    stack: ["Mobile", "JavaScript"], // update to the stack you actually used
-    features: ["Rotation visualisation", "Gameplay simulation"],
-    image: "", github: "", demo: "" },
+    image: "", github: "", demo: "",
+    demo: "https://ches-tindahan.vercel.app"
+  },
 ];
 
 export const education = {
