@@ -9,8 +9,6 @@ import {
   SiPostgresql,
   SiSupabase,
   SiGit,
-  SiPostman,
-  SiFigma,
 } from "react-icons/si";
 import { Github } from "lucide-react";
 import { skillGroups } from "../data/portfolio";
@@ -29,9 +27,7 @@ const icons = {
   supabase: SiSupabase,
   git: SiGit,
   github: Github,
-  vscode: Code2,
-  postman: SiPostman,
-  figma: SiFigma,
+  vscode: Code2, 
 };
 
 export default function Skills() {
