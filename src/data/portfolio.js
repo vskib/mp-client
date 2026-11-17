@@ -58,10 +58,15 @@ export const education = {
   school: "Naga College Foundation, Inc.",
   period: "2024–2028",
   status: "Currently enrolled",
-  // Add your own entries below.
-  coursework: [], // e.g. "Database Management Systems"
-  achievements: [], // e.g. "Dean's Lister, 1st Semester"
-  certifications: [],
+  coursework: [],
+  achievements: [
+    "Dean's Lister – 1st Semester, 1st Year",
+    "Dean's Lister – 2nd Semester, 1st Year",
+    "Dean's Lister – 2nd Semester, 2nd Year",
+  ],
+  certifications: [
+    "Certified Data Science Associate",
+  ],
 };
 
 export const navLinks = [
