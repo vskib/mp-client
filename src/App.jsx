@@ -8,5 +8,18 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default function App() {
-  return (<><Navbar /><main><Hero /><Skills /><About /><Projects /><Education /><Contact /></main><Footer /></>);
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Skills />
+        <About />
+        <Projects />
+        <Education />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
 }

@@ -1,4 +1,3 @@
-
 import { navLinks, profile, socials } from "../data/portfolio";
 import SocialIcon from "./SocialIcon";
 
@@ -6,7 +5,6 @@ export default function Footer() {
   return (
     <footer className="border-t-[1px] border-line px-[5vw] py-[3rem]">
       <div className="mx-auto max-w-[75rem] w-[100%] grid gap-[2rem] md:grid-cols-3 items-center">
-
         {/* Profile Photo and Tagline */}
         <div>
           <a href="#home" aria-label="Back to home" className="inline-flex">

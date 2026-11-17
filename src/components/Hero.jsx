@@ -21,7 +21,6 @@ export default function Hero() {
   return (
     <section id="home" className="px-[3vw] pt-[6.5rem] pb-[2rem]">
       <div className="relative overflow-hidden mx-auto max-w-[75rem] w-[100%] rounded-[2rem] md:rounded-[3rem] border-[1px] border-line bg-gradient-to-br from-bg2 to-bg px-[6%] py-[3rem] md:py-[4.5rem]">
-
         <div
           aria-hidden
           className="pointer-events-none absolute -right-[10%] -top-[20%] w-[60%] aspect-square rounded-full bg-brand/25 blur-[6rem] animate-drift"
@@ -33,7 +32,6 @@ export default function Hero() {
         />
 
         <div className="relative grid gap-[3rem] md:grid-cols-2 items-center">
-
           {/* LEFT CONTENT */}
           <div className="order-2 md:order-1">
             <p className="text-[1.1rem] text-muted">Hello, I'm</p>
@@ -92,7 +90,6 @@ export default function Hero() {
           {/* RIGHT PROFILE PHOTO */}
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative w-[80%] max-w-[26rem] md:w-[100%] aspect-square">
-
               {/* Circular background */}
               <div
                 aria-hidden
@@ -127,10 +124,8 @@ export default function Hero() {
                 aria-hidden
                 className="absolute inset-0 rounded-full shadow-[inset_0_-3rem_4rem_-2rem_rgba(255,107,0,.45)] pointer-events-none"
               />
-
             </div>
           </div>
-
         </div>
       </div>
     </section>

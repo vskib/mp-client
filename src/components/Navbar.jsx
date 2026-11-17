@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { navLinks, profile } from "../data/portfolio";
@@ -32,11 +31,7 @@ export default function Navbar() {
         className="mx-auto max-w-[75rem] w-[100%] rounded-full border-[1px] border-line bg-bg/80 backdrop-blur-md px-[1.25rem] py-[0.6rem] flex items-center justify-between"
       >
         {/* Profile Photo Logo */}
-        <a
-          href="#home"
-          className="flex items-center"
-          aria-label="Home"
-        >
+        <a href="#home" className="flex items-center" aria-label="Home">
           <img
             src={profile.photo}
             alt={profile.name}
