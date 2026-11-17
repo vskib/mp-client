@@ -1,11 +1,10 @@
 // ✏️  EDIT THIS FILE to personalise the whole site.
 export const profile = {
   name: "James Kiven Burce",
-  initials: "Kib",
   headline: "3rd Year IT Student | Aspiring Full-Stack Developer",
   intro: "An Information Technology student passionate about building modern web applications, exploring emerging technologies, and transforming ideas into functional digital experiences.",
   tagline: "Building ideas into meaningful digital experiences.",
-  photo: "/images/profile.png", // replace with your own photo
+  photo: "/images/profile.jpg", // replace with your own photo
   resume: "/resume.pdf",
   startYear: 2024, // used to compute "Years of Learning"
   email: "jameskivenburce0@gmail.com",
