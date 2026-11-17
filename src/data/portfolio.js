@@ -48,7 +48,7 @@ export const projects = [
     details: "Designed to help a small retail store record sales and keep track of stock in one place. Replace this text with your own description of the problem, your role, and what you learned.",
     stack: ["React", "Node.js", "Express", "PostgreSQL"], // update to the stack you actually used
     features: ["Point-of-sale checkout", "Inventory tracking", "Product management"],
-    image: "", github: "", demo: "",
+    image: "/images/projects/p1.jpg", github: "https://github.com/vskib/tindahan_frontend",
     demo: "https://ches-tindahan.vercel.app"
   },
 ];
