@@ -36,7 +36,6 @@ export const about = {
     "Full-stack web development",
     "Database design",
     "Mobile apps",
-    "UI/UX",
     "Emerging technologies",
   ],
   goals: [
@@ -79,8 +78,6 @@ export const skillGroups = [
       { name: "Git", icon: "git" },
       { name: "GitHub", icon: "github" },
       { name: "VS Code", icon: "vscode" },
-      { name: "Postman", icon: "postman" },
-      { name: "Figma", icon: "figma" },
     ],
   },
 ];
